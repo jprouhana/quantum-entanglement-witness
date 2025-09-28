@@ -95,3 +95,4 @@ def entanglement_entropy(rho, n_qubits, partition_qubits):
     """
     rho_a = partial_trace(rho, n_qubits, list(partition_qubits))
     return von_neumann_entropy(rho_a)
+# PPT criterion: necessary for separability in 2x2 and 2x3
